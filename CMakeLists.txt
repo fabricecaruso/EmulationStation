@@ -92,10 +92,6 @@ if(DEFINED libCEC_FOUND)
     add_definitions(-DHAVE_LIBCEC)
 endif()
 
-if(DEFINED ODROID)
-    add_definitions(-D_ODROID_)
-endif()
-
 #-------------------------------------------------------------------------------
 
 if(MSVC)
