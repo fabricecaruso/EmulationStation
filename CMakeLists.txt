@@ -41,6 +41,7 @@ elseif(EXISTS "${CMAKE_FIND_ROOT_PATH}/usr/lib/libMali.so" OR
     EXISTS "${CMAKE_FIND_ROOT_PATH}/usr/lib/arm-linux-gnueabihf/libmali.so")
     MESSAGE("libMali.so found")
     set(GLSystem "Embedded OpenGL" CACHE STRING "The OpenGL system to be used")
+    set(ODROID found)
 else()
     set(GLSystem "Desktop OpenGL" CACHE STRING "The OpenGL system to be used")
 endif(GLES)
@@ -89,6 +90,10 @@ endif()
 
 if(DEFINED libCEC_FOUND)
     add_definitions(-DHAVE_LIBCEC)
+endif()
+
+if(DEFINED ODROID)
+    add_definitions(-D_ODROID_)
 endif()
 
 #-------------------------------------------------------------------------------
