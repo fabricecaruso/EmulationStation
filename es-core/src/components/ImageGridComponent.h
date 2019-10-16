@@ -8,9 +8,7 @@
 #include "GridTileComponent.h"
 #include "animations/LambdaAnimation.h"
 #include "Settings.h"
-#if _RPI_ || _ODROID_
 #include "Sound.h"
-#endif
 
 #define EXTRAITEMS 2
 
