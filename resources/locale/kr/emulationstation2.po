@@ -1,0 +1,1086 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-26 18:11+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ko_KR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgid "NAME"
+msgstr "이름"
+
+msgid "ENTER GAME NAME"
+msgstr "게임 이름 입력"
+
+msgid "SORTNAME"
+msgstr "정렬용 이름"
+
+msgid "ENTER GAME SORT NAME"
+msgstr "목록 정렬에 사용할 이름을 입력"
+
+msgid "DESCRIPTION"
+msgstr "설명"
+
+msgid "ENTER DESCRIPTION"
+msgstr "설명 입력"
+
+msgid "IMAGE"
+msgstr "이미지"
+
+msgid "ENTER PATH TO IMAGE"
+msgstr "이미지 경로 입력"
+
+msgid "VIDEO"
+msgstr "동영상"
+
+msgid "ENTER PATH TO VIDEO"
+msgstr "동영상 경로 입력"
+
+msgid "MARQUEE"
+msgstr "마키"
+
+msgid "ENTER PATH TO MARQUEE"
+msgstr "마키 이미지 경로 입력"
+
+msgid "THUMBNAIL"
+msgstr "미리보기"
+
+msgid "ENTER PATH TO THUMBNAIL"
+msgstr "미리보기 이미지 경로 입력"
+
+msgid "RATING"
+msgstr "평점"
+
+msgid "ENTER RATING"
+msgstr "평점 입력"
+
+msgid "RELEASE DATE"
+msgstr "발매일"
+
+msgid "ENTER RELEASE DATE"
+msgstr "발매일 입력"
+
+msgid "unknown"
+msgstr "알수없음"
+
+msgid "DEVELOPER"
+msgstr "개발사"
+
+msgid "ENTER GAME DEVELOPER"
+msgstr "개발사 입력"
+
+msgid "PUBLISHER"
+msgstr "판매사"
+
+msgid "ENTER GAME PUBLISHER"
+msgstr "판매사 입력"
+
+msgid "GENRE"
+msgstr "장르"
+
+msgid "ENTER GAME GENRE"
+msgstr "장르 입력"
+
+msgid "PLAYERS"
+msgstr "플레이어"
+
+msgid "ENTER NUMBER OF PLAYERS"
+msgstr "플레이어 수 입력"
+
+msgid "FAVORITE"
+msgstr "즐겨찾기"
+
+msgid "ENTER FAVORITE OFF/ON"
+msgstr "즐겨찾기 표시 유무"
+
+msgid "HIDDEN"
+msgstr "숨김"
+
+msgid "ENTER HIDDEN OFF/ON"
+msgstr "숨김 유무"
+
+msgid "KIDGAME"
+msgstr "아동용 게임"
+
+msgid "ENTER KIDGAME OFF/ON"
+msgstr "아동용 게임 유무 입력"
+
+msgid "PLAY COUNT"
+msgstr "실행 횟수"
+
+msgid "ENTER NUMBER OF TIMES PLAYED"
+msgstr "실행 횟수 입력"
+
+msgid "LAST PLAYED"
+msgstr "최근 실행"
+
+msgid "ENTER LAST PLAYED DATE"
+msgstr "최근 실행 일자 입력"
+
+msgid "collections"
+msgstr "컬렉션"
+
+msgid "all"
+msgstr "전체"
+
+msgid "ALL GAMES"
+msgstr "전체 게임"
+
+msgid "FILENAME, ASCENDING"
+msgstr "파일명 오름차순"
+
+msgid "recent"
+msgstr "최근"
+
+msgid "LAST PLAYED, DESCENDING"
+msgstr "최근 실행 내림차순"
+
+msgid "favorites"
+msgstr "즐겨찾기"
+
+msgid "FAVORITES"
+msgstr "즐겨찾기"
+
+msgid "COLLECTIONS"
+msgstr "컬렉션"
+
+msgid "New Collection"
+msgstr "새 컬렉션"
+
+msgid "Editing the '{1}' Collection. Add/remove games with Y."
+msgstr "'{1}' 컬렉션 수정중. 게임 추가/삭제는 Y."
+
+msgid "Finished editing the '{1}' Collection."
+msgstr "'{1}' 컬렉션 수정 완료."
+
+msgid "Added '{1}' to '{2}'"
+msgstr "'{1}' 게임 추가 '{2}'"
+
+msgid "Removed '{1}' from '{2}'"
+msgstr "'{1}' 게임 삭제 '{2}'"
+
+msgid "This collection is empty."
+msgstr "현재 컬렉션이 비어있습니다."
+
+msgid "None"
+msgstr "없음"
+
+msgid "Various"
+msgstr "다양"
+
+msgid " among other titles."
+msgstr " 다른 타이틀 중."
+
+msgid "This collection contains {1} games, including {2}"
+msgstr "현재 컬렉션에는 {2} 등을 포함한 {1}개의 게임이 있습니다."
+
+msgid ""
+"IT LOOKS LIKE YOUR SYSTEMS CONFIGURATION FILE HAS NOT BEEN SET UP OR IS "
+"INVALID. YOU'LL NEED TO DO THIS BY HAND, UNFORTUNATELY.\n"
+"\n"
+"VISIT EMULATIONSTATION.ORG FOR MORE INFORMATION."
+msgstr ""
+"시스템 설정 파일이 올바르지 않거나 설정되지 않았습니다. "
+"안타깝게도 수작업으로 수정해야 할 것 같습니다.\n"
+"\n"
+"자세한 정보는 EMULATIONSTATION.ORG에서 확인하세요"
+
+msgid ""
+"WE CAN'T FIND ANY SYSTEMS!\n"
+"CHECK THAT YOUR PATHS ARE CORRECT IN THE SYSTEMS CONFIGURATION FILE, AND "
+"YOUR GAME DIRECTORY HAS AT LEAST ONE GAME WITH THE CORRECT EXTENSION.\n"
+"\n"
+"VISIT EMULATIONSTATION.ORG FOR MORE INFORMATION."
+msgstr ""
+"설치된 시스템을 찾을 수 없습니다!\n"
+"시스템 설정 파일에서 경로 설정이 올바른지, "
+"게임 폴더에 올바른 확장명을 가진 게임이 적어도 "
+"한 개 이상 있는지 확인하십시오..\n"
+"\n"
+"자세한 정보는 EMULATIONSTATION.ORG에서 확인하세요."
+
+msgid "QUIT"
+msgstr "종료"
+
+msgid "PUBLISHER / DEVELOPER"
+msgstr "판매사 / 개발사"
+
+msgid "{1} STARS"
+msgstr "{1} 별점"
+
+msgid "0 STARS"
+msgstr "0 별점"
+
+msgid "FILENAME, DESCENDING"
+msgstr "파일명 내림차순"
+
+msgid "RATING, ASCENDING"
+msgstr "평점 오름차순"
+
+msgid "RATING, DESCENDING"
+msgstr "평점 내림차순"
+
+msgid "TIMES PLAYED, ASCENDING"
+msgstr "실행 횟수 오름차순"
+
+msgid "TIMES PLAYED, DESCENDING"
+msgstr "실행 횟수 내림차순"
+
+msgid "LAST PLAYED, ASCENDING"
+msgstr "최근 실행 오름차순"
+
+msgid "NUMBER PLAYERS, ASCENDING"
+msgstr "플레이어 수 오름차순"
+
+msgid "NUMBER PLAYERS, DESCENDING"
+msgstr "플레이어 수 내림차순"
+
+msgid "RELEASE DATE, ASCENDING"
+msgstr "발매일 오름차순"
+
+msgid "RELEASE DATE, DESCENDING"
+msgstr "발매일 내림차순"
+
+msgid "GENRE, ASCENDING"
+msgstr "장르 오름차순"
+
+msgid "GENRE, DESCENDING"
+msgstr "장르 내림차순"
+
+msgid "DEVELOPER, ASCENDING"
+msgstr "개발사 오름차순"
+
+msgid "DEVELOPER, DESCENDING"
+msgstr "개발사 내림차순"
+
+msgid "PUBLISHER, ASCENDING"
+msgstr "판매사 오름차순"
+
+msgid "PUBLISHER, DESCENDING"
+msgstr "판매사 내림차순"
+
+msgid "SYSTEM, ASCENDING"
+msgstr "시스템 오름차순"
+
+msgid "SYSTEM, DESCENDING"
+msgstr "시스템 내림차순"
+
+msgid "ADD STAR"
+msgstr "별점 추가"
+
+msgid "CANCEL"
+msgstr "취소"
+
+msgid "RATING:"
+msgstr "등급:"
+
+msgid "RELEASED:"
+msgstr "발매:"
+
+msgid "DEVELOPER:"
+msgstr "개발사:"
+
+msgid "PUBLISHER:"
+msgstr "판매사:"
+
+msgid "GENRE:"
+msgstr "장르:"
+
+msgid "PLAYERS:"
+msgstr "플레이어:"
+
+msgid ""
+"Configured scraper is no longer available.\n"
+"Please change the scraping source in the settings."
+msgstr ""
+"설정된 스크래퍼를 더 이상 사용할 수 없습니다.\n"
+"설정에서 스크래퍼 소스를 변경해 주십시오."
+
+msgid "FINISH"
+msgstr "완료"
+
+msgid "NO GAMES FOUND - SKIP"
+msgstr "게임을 찾을 수 없음 - 건너뛰기"
+
+msgid "RETRY"
+msgstr "다시 시도"
+
+msgid "SKIP"
+msgstr "건너뛰기"
+
+msgid "SEARCH FOR"
+msgstr "검색"
+
+msgid "SEARCH"
+msgstr "검색"
+
+msgid "ACCEPT RESULT"
+msgstr "결과 확인"
+
+msgid "MENU"
+msgstr "메뉴"
+
+msgid ""
+"The selected UI mode has nothing to show,\n"
+" returning to UI mode: FULL"
+msgstr ""
+"선택한 UI모드에는 표시할 항목이 없습니다,\n"
+" 전체 UI모드로 돌아갑니다"
+
+msgid "OK"
+msgstr "확인"
+
+msgid "CONFIGURATION"
+msgstr "설정"
+
+msgid "{1} GAME AVAILABLE"
+msgid_plural "{1} GAMES AVAILABLE"
+msgstr[0] "{1}개의 게임 이용가능"
+msgstr[1] "{1}개의 게임 이용가능"
+
+msgid "CHOOSE"
+msgstr "이동"
+
+msgid "SELECT"
+msgstr "선택"
+
+msgid "RANDOM"
+msgstr "무작위"
+
+msgid "LAUNCH SCREENSAVER"
+msgstr "화면보호기 실행"
+
+msgid "Full"
+msgstr "전체"
+
+msgid "Kiosk"
+msgstr "키오스크"
+
+msgid "Kid"
+msgstr "아동용"
+
+msgid "<No Entries Found>"
+msgstr "<항목 없음>"
+
+msgid "SYSTEM"
+msgstr "시스템"
+
+msgid "LAUNCH"
+msgstr "실행"
+
+msgid "BACK"
+msgstr "이전"
+
+msgid "OPTIONS"
+msgstr "옵션"
+
+msgid "LAST PLAYED:"
+msgstr "최근 실행:"
+
+msgid "TIMES PLAYED:"
+msgstr "실행 횟수:"
+
+msgid "CLOSE"
+msgstr "닫기"
+
+msgid "SCREENSAVER AFTER"
+msgstr "화면보호기 실행시간"
+
+msgid "SCREENSAVER CONTROLS"
+msgstr "화면보호기 제어"
+
+msgid "SCREENSAVER BEHAVIOR"
+msgstr "화면보호기 방식"
+
+msgid "dim"
+msgstr "흐리게"
+
+msgid "black"
+msgstr "검은 화면"
+
+msgid "random video"
+msgstr "무작위 동영상"
+
+msgid "slideshow"
+msgstr "슬라이드쇼"
+
+msgid ""
+"The \"Random Video\" screensaver shows videos from your gamelist.\n"
+"\n"
+"If you do not have videos, or if in several consecutive attempts the games "
+"it selects don't have videos it will default to black.\n"
+"\n"
+"More options in the \"UI Settings\" > \"Video Screensaver\" menu."
+msgstr ""
+" \"무작위 동영상\" 화면보호기는 게임목록 상의 동영상을 보여줍니다.\n"
+"\n"
+"동영상이 없거나 목록에서 동영상이 없는 게임을 계속해서 선택하게 "
+"될 경우, 기본 검은 화면 보호기로 변경되게 됩니다.\n"
+"\n"
+"\"UI 설정\">\"동영상 화면보호기\" 메뉴에서 더 많은 옵션을 확인하세요."
+
+msgid "USE HARDWARE BACKLIGHT CONTROL"
+msgstr "하드웨어 백라이트 제어 사용"
+
+msgid "VIDEO SCREENSAVER SETTINGS"
+msgstr "동영상 화면보호기 설정"
+
+msgid "SLIDESHOW SCREENSAVER SETTINGS"
+msgstr "슬라이드쇼 화면보호기 설정"
+
+msgid "VIDEO SCREENSAVER"
+msgstr "동영상 화면보호기"
+
+msgid "SLIDESHOW SCREENSAVER"
+msgstr "슬라이드쇼 화면보호기"
+
+msgid "MAIN MENU"
+msgstr "메인 메뉴"
+
+msgid "SCRAPER"
+msgstr "스크래퍼"
+
+msgid "SOUND SETTINGS"
+msgstr "사운드 설정"
+
+msgid "UI SETTINGS"
+msgstr "UI 설정"
+
+msgid "GAME COLLECTION SETTINGS"
+msgstr "게임 컬렉션 설정"
+
+msgid "OTHER SETTINGS"
+msgstr "기타 설정"
+
+msgid "CONFIGURE INPUT"
+msgstr "입력 설정"
+
+msgid "SCRAPE FROM"
+msgstr "스크랩 "
+
+msgid "SCRAPE RATINGS"
+msgstr "평점 스크랩"
+
+msgid "SCRAPE NOW"
+msgstr "지금 스크랩"
+
+msgid "SYSTEM VOLUME"
+msgstr "시스템 볼륨"
+
+msgid "AUDIO CARD"
+msgstr "오디오 카드"
+
+msgid "local"
+msgstr "내장 3.5mm"
+
+msgid "hdmi"
+msgstr "HDMI"
+
+msgid "both"
+msgstr "모두"
+
+msgid "default"
+msgstr "기본값"
+
+msgid "sysdefault"
+msgstr "시스템기본값"
+
+msgid "AUDIO DEVICE"
+msgstr "오디오 장치"
+
+msgid "PCM"
+msgstr "PCM"
+
+msgid "Speaker"
+msgstr "스피커"
+
+msgid "Master"
+msgstr "마스터"
+
+msgid "Digital"
+msgstr "디지털"
+
+msgid "Analogue"
+msgstr "아날로그"
+
+msgid "ENABLE NAVIGATION SOUNDS"
+msgstr "네비게이션  사운드 사용"
+
+msgid "ENABLE VIDEO AUDIO"
+msgstr "동영상 오디오 사용"
+
+msgid "OMX PLAYER AUDIO DEVICE"
+msgstr "OMX 플레이어 오디오 장치"
+
+msgid "UI MODE"
+msgstr "UI 모드"
+
+msgid ""
+"You are changing the UI to a restricted mode:\n"
+"{1}\n"
+"This will hide most menu-options to prevent changes to the system.\n"
+"To unlock and return to the full UI, enter this code: \n"
+"\"{2}\"\n"
+"\n"
+"Do you want to proceed?"
+msgstr ""
+"UI를 제한 모드로 변경하려고 합니다:\n"
+"{1}\n"
+"이 작업은 대부분의 옵션 메뉴를 숨기고 시스템 설정 변경을 방지합니다.\n"
+"잠금을 풀고 전제 모드 UI로 변경하려면 아래 코드를 입력하세요: \n"
+"\"{2}\"\n"
+"\n"
+"계속하시겠습니까?"
+
+msgid "YES"
+msgstr "예"
+
+msgid "NO"
+msgstr "아니오"
+
+msgid "SCREENSAVER SETTINGS"
+msgstr "화면보호기 설정"
+
+msgid "QUICK SYSTEM SELECT"
+msgstr "빠른 시스템 전환"
+
+msgid "CAROUSEL TRANSITIONS"
+msgstr "회전메뉴 전환 효과"
+
+msgid "TRANSITION STYLE"
+msgstr "전환 스타일"
+
+msgid "fade"
+msgstr "어둡게"
+
+msgid "slide"
+msgstr "슬라이드"
+
+msgid "instant"
+msgstr "즉각"
+
+msgid "THEME SET"
+msgstr "테마"
+
+msgid "GAMELIST VIEW STYLE"
+msgstr "게임목록 보기 스타일"
+
+msgid "automatic"
+msgstr "자동"
+
+msgid "basic"
+msgstr "기본"
+
+msgid "detailed"
+msgstr "세부"
+
+msgid "video"
+msgstr "동영상"
+
+msgid "grid"
+msgstr "그리드"
+
+msgid "START ON SYSTEM"
+msgstr "시작 시스템"
+
+msgid "NONE"
+msgstr "없음"
+
+msgid "ON-SCREEN HELP"
+msgstr "온스크린 도움말"
+
+msgid "ENABLE FILTERS"
+msgstr "필터 사용"
+
+msgid "Mb"
+msgstr "Mb"
+
+msgid "VRAM LIMIT"
+msgstr "VRAM 제한"
+
+msgid "POWER SAVER MODES"
+msgstr "절전 모드"
+
+msgid "disabled"
+msgstr "사용안함"
+
+msgid "enhanced"
+msgstr "고급"
+
+msgid "SAVE METADATA ON EXIT"
+msgstr "종료시 메타데이터 저장"
+
+msgid "PARSE GAMESLISTS ONLY"
+msgstr "게임목록 항목만 표시"
+
+msgid "SHOW HIDDEN FILES"
+msgstr "숨김파일 표시"
+
+msgid "USE OMX PLAYER (HW ACCELERATED)"
+msgstr "OMX 플레이어 사용 (하드웨어 가속)"
+
+msgid "SHOW FRAMERATE"
+msgstr "FPS 표시"
+
+msgid "ARE YOU SURE YOU WANT TO CONFIGURE INPUT?"
+msgstr "입력 설정을 진행하시겠습니까?"
+
+msgid "REALLY RESTART?"
+msgstr "정말 다시 시작합니까?"
+
+msgid "RESTART EMULATIONSTATION"
+msgstr "에뮬레이션스테이션 재시작"
+
+msgid "REALLY QUIT?"
+msgstr "정말로 나갑니까?"
+
+msgid "QUIT EMULATIONSTATION"
+msgstr "에뮬레이션스테이션 나가기"
+
+msgid "RESTART SYSTEM"
+msgstr "시스템 재시작"
+
+msgid "REALLY SHUTDOWN?"
+msgstr "정말로 종료합니까?"
+
+msgid "SHUTDOWN SYSTEM"
+msgstr "시스템 종료"
+
+msgid "CREATE NEW CUSTOM COLLECTION FROM THEME"
+msgstr "테마에서 새 사용자 컬렉션 만들기"
+
+msgid "SELECT THEME FOLDER"
+msgstr "테마 폴더 선택"
+
+msgid "CREATE NEW CUSTOM COLLECTION"
+msgstr "새 사용자 컬렉션 생성"
+
+msgid "New Collection Name"
+msgstr "새 컬렉션 이름"
+
+msgid "GROUP UNTHEMED CUSTOM COLLECTIONS"
+msgstr "테마가 없는 사용자 컬렉션 묶기"
+
+msgid "SORT CUSTOM COLLECTIONS AND SYSTEMS"
+msgstr "사용자 컬렉션 및 시스템 정렬"
+
+msgid "FINISH EDITING '{1}' COLLECTION"
+msgstr "'{1}'컬렉션 수정 종료"
+
+msgid "SELECT COLLECTIONS"
+msgstr "컬렉션 선택"
+
+msgid "AUTOMATIC GAME COLLECTIONS"
+msgstr "자동 게임 컬렉션"
+
+msgid "CUSTOM GAME COLLECTIONS"
+msgstr "사용자 게임 컬렉션"
+
+msgid "EDIT METADATA"
+msgstr "메타데이터 수정"
+
+msgid "SCRAPE"
+msgstr "스크랩"
+
+msgid "SAVE"
+msgstr "저장"
+
+msgid ""
+"THIS WILL DELETE THE ACTUAL GAME FILE(S)!\n"
+"ARE YOU SURE?"
+msgstr ""
+"실제 파일을 삭제하게 됩니다!\n"
+"계속 하시겠습니까?"
+
+msgid "DELETE"
+msgstr "삭제"
+
+msgid "SAVE CHANGES?"
+msgstr "변경사항을 저장합니까?"
+
+msgid "JUMP TO..."
+msgstr "이동..."
+
+msgid "SORT GAMES BY"
+msgstr "게임 정렬"
+
+msgid "FILTER GAMELIST"
+msgstr "게임목록 필터"
+
+msgid "ADD/REMOVE GAMES TO THIS GAME COLLECTION"
+msgstr "현재 게임 컬렉션에 게임 추가/삭제"
+
+msgid "EDIT THIS GAME'S METADATA"
+msgstr "현재 게임의 메타데이터 수정"
+
+msgid "SWAP IMAGE AFTER (SECS)"
+msgstr "다음 시간 후 이미지 변경 (초)"
+
+msgid "STRETCH IMAGES"
+msgstr "이미지 늘리기"
+
+msgid "BACKGROUND AUDIO"
+msgstr "배경 오디오"
+
+msgid "USE CUSTOM IMAGES"
+msgstr "사용자 이미지 사용"
+
+msgid "CUSTOM IMAGE DIR"
+msgstr "사용자 이미지 경로"""
+
+msgid "CUSTOM IMAGE DIR RECURSIVE"
+msgstr "사용자 이미지 경로 순환"
+
+msgid "CUSTOM IMAGE FILTER"
+msgstr "사용자 이미지 필터"
+
+msgid "FILTER GAMELIST BY"
+msgstr "게임목록 필터"
+
+msgid "RESET ALL FILTERS"
+msgstr "전체 필터 초기화"
+
+msgid "FALSE"
+msgstr "아니오"
+
+msgid "TRUE"
+msgstr "예"
+
+msgid "SWAP VIDEO AFTER (SECS)"
+msgstr "다음 시간 후 동영상 변경 (초)"
+
+msgid "USE OMX PLAYER FOR SCREENSAVER"
+msgstr "화면보호기에 OMX 플레이어 사용"
+
+msgid "SHOW GAME INFO"
+msgstr "게임 정보 표시"
+
+msgid "always"
+msgstr "항상"
+
+msgid "start & end"
+msgstr "시작 및 종료시"
+
+msgid "never"
+msgstr "사용안함"
+
+msgid "SHOW GAME INFO ON SCREENSAVER"
+msgstr "화면보호기에 게임 정보 표시"
+
+msgid "USE COMPATIBLE LOW RESOLUTION FOR CAPTIONS"
+msgstr "문자 표시를 위해 호환가능한 저해상도 사용"
+
+msgid "STRETCH VIDEO ON SCREENSAVER"
+msgstr "화면보호기 동영상 크기 늘리기"
+
+msgid ""
+"Using OMX Player and displaying Game Info may result in the video flickering "
+"in some TV modes. If that happens, consider:\n"
+"\n"
+"- Disabling the \"Show Game Info\" option;\n"
+"- Disabling \"Overscan\" on the Pi configuration menu might help:\n"
+"RetroPie > Raspi-Config > Advanced Options > Overscan > \"No\".\n"
+"- Disabling the use of OMX Player for the screensaver."
+msgstr ""
+"OMX 플레이어를 사용하며 게임 정보를 표시할 시 일부 TV에서 깜빡임이 발생합니다. "
+"그런 일이 발생할 경우:\n"
+"\n"
+"- \"게임 정보 표시\"옵션을 끄거나\n"
+"- 파이 설정에서 \"오버스캔\"을 끄면 도움이 될 수 있습니다i:\n"
+"RetroPie > Raspi-Config > Advanced Options > Overscan > \"No\".\n"
+"- 화면보호기에 OMX 플레이어를 사용하지 않는 방법도 있습니다."
+
+msgid "GOT IT!"
+msgstr "알겠습니다!"
+
+msgid "SCRAPE THESE GAMES"
+msgstr "다음 게임 스크랩"
+
+msgid "All Games"
+msgstr "전체 게임"
+
+msgid "Only missing image"
+msgstr "이미지가 없는 게임"
+
+msgid "FILTER"
+msgstr "필터"
+
+msgid "SCRAPE THESE SYSTEMS"
+msgstr "다음 시스템 스크랩"
+
+msgid "SYSTEMS"
+msgstr "시스템"
+
+msgid "USER DECIDES ON CONFLICTS"
+msgstr "충돌시 사용자가 선택"
+
+msgid "START"
+msgstr "시작"
+
+msgid ""
+"WARNING: SOME OF YOUR SELECTED SYSTEMS DO NOT HAVE A PLATFORM SET. RESULTS "
+"MAY BE EVEN MORE INACCURATE THAN USUAL!\n"
+"CONTINUE ANYWAY?"
+msgstr ""
+"경고 : 선택된 시스템 중 일부는 플랫폼 설정이 없습니다. "
+"기존과 다르게 결과가 정확하지 않을 수 있습니다!\n"
+"계속하시겠습니까?"
+
+msgid "NO GAMES FIT THAT CRITERIA."
+msgstr "조건에 맞는 게임이 없습니다."
+
+msgid "INPUT"
+msgstr "입력"
+
+msgid "SCRAPING IN PROGRESS"
+msgstr "스크랩 진행중"
+
+msgid "subtitle text"
+msgstr "자막 텍스트"
+
+msgid "STOP"
+msgstr "중지"
+
+msgid "STOP (PROGRESS SAVED)"
+msgstr "중지 (진행상황 저장됨)"
+
+msgid "GAME {1} OF {2}"
+msgstr "게임 {1} / {2}"
+
+msgid "NO GAMES WERE SCRAPED."
+msgstr "스크랩된 게임 없음"
+
+msgid "{1} GAME SUCCESSFULLY SCRAPED!"
+msgid_plural "{1} GAMES SUCCESSFULLY SCRAPED!"
+msgstr[0] "{1} 게임 스크랩됨!"
+msgstr[1] "{1} 게임 스크랩됨!"
+
+msgid "{1} GAME SKIPPED."
+msgid_plural "{1} GAMES SKIPPED."
+msgstr[0] "{1} 게임 건너뜀."
+msgstr[1] "{1} 게임 건너뜀."
+
+msgid "LOADING..."
+msgstr "불러오는 중..."
+
+msgid "CHANGE"
+msgstr "변경"
+
+msgid "{1} day ago"
+msgid_plural "{1} days ago"
+msgstr[0] "{1}일 전"
+msgstr[1] "{1}일 전"
+
+msgid "{1} hour ago"
+msgid_plural "{1} hours ago"
+msgstr[0] "{1}시간 전"
+msgstr[1] "{1}시간 전"
+
+msgid "{1} minute ago"
+msgid_plural "{1} minutes ago"
+msgstr[0] "{1}분 전"
+msgstr[1] "{1}분 전"
+
+msgid "{1} second ago"
+msgid_plural "{1} seconds ago"
+msgstr[0] "{1}초 전"
+msgstr[1] "{1}초 전"
+
+msgid "WORKING..."
+msgstr "작업 중..."
+
+msgid "ACCEPT"
+msgstr "수락"
+
+msgid "SELECT ALL"
+msgstr "모두 선택"
+
+msgid "SELECT NONE"
+msgstr "선택 해제"
+
+msgid "{1} SELECTED"
+msgid_plural "{1} SELECTED"
+msgstr[0] "{1} 선택됨"
+msgstr[1] "{1} 선택됨"
+
+msgid "MOVE CURSOR"
+msgstr "커서 이동"
+
+msgid "STOP EDITING"
+msgstr "수정 종료"
+
+msgid "EDIT"
+msgstr "수정"
+
+msgid "WELCOME"
+msgstr "환영합니다"
+
+msgid "{1} GAMEPAD DETECTED"
+msgid_plural "{1} GAMEPADS DETECTED"
+msgstr[0] "{1}개의 게임패드 탐지됨"
+msgstr[1] "{1}개의 게임패드 탐지됨"
+
+msgid "NO GAMEPADS DETECTED"
+msgstr "검색된 게임패드 없음"
+
+msgid "HOLD A BUTTON ON YOUR DEVICE TO CONFIGURE IT."
+msgstr "설정 하려면 장치의 버튼을 길게 누르세요."
+
+msgid "PRESS F4 TO QUIT AT ANY TIME."
+msgstr "F4 키를 누르면 언제든 종료할 수 있습니다."
+
+msgid "PRESS ESC TO CANCEL."
+msgstr "취소하려면 ESC를 누르세요."
+
+msgid "DISCARD CHANGES"
+msgstr "변경 취소"
+
+msgctxt "button"
+msgid "D-PAD UP"
+msgstr "D-패드 위"
+
+msgctxt "button"
+msgid "D-PAD DOWN"
+msgstr "D-패드 아래"
+
+msgctxt "button"
+msgid "D-PAD LEFT"
+msgstr "D-패드 좌"
+
+msgctxt "button"
+msgid "D-PAD RIGHT"
+msgstr "D-패드 우"
+
+msgctxt "button"
+msgid "START"
+msgstr "스타트"
+
+msgctxt "button"
+msgid "SELECT"
+msgstr "셀렉트"
+
+msgctxt "button"
+msgid "BUTTON A / EAST"
+msgstr "A버튼"
+
+msgctxt "button"
+msgid "BUTTON B / SOUTH"
+msgstr "B 버튼"
+
+msgctxt "button"
+msgid "BUTTON X / NORTH"
+msgstr "X 버튼"
+
+msgctxt "button"
+msgid "BUTTON Y / WEST"
+msgstr "Y 버튼"
+
+msgctxt "button"
+msgid "LEFT SHOULDER"
+msgstr "왼쪽 숄더"
+
+msgctxt "button"
+msgid "RIGHT SHOULDER"
+msgstr "오른쪽 숄더"
+
+msgctxt "button"
+msgid "LEFT TRIGGER"
+msgstr "왼쪽 트리거"
+
+msgctxt "button"
+msgid "RIGHT TRIGGER"
+msgstr "오른쪽 트리거"
+
+msgctxt "button"
+msgid "LEFT THUMB"
+msgstr "왼쪽 엄지버튼"
+
+msgctxt "button"
+msgid "RIGHT THUMB"
+msgstr "오른쪽 엄지버튼"
+
+msgctxt "button"
+msgid "LEFT ANALOG UP"
+msgstr "왼쪽 아날로그 위"
+
+msgctxt "button"
+msgid "LEFT ANALOG DOWN"
+msgstr "왼쪽 아날로그 아래"
+
+msgctxt "button"
+msgid "LEFT ANALOG LEFT"
+msgstr "왼쪽 아날로그 좌"
+
+msgctxt "button"
+msgid "LEFT ANALOG RIGHT"
+msgstr "왼쪽 아날로그 우"
+
+msgctxt "button"
+msgid "RIGHT ANALOG UP"
+msgstr "오른쪽 아날로그 위"
+
+msgctxt "button"
+msgid "RIGHT ANALOG DOWN"
+msgstr "오른쪽 아날로그 아래"
+
+msgctxt "button"
+msgid "RIGHT ANALOG LEFT"
+msgstr "오른쪽 아날로그 좌"
+
+msgctxt "button"
+msgid "RIGHT ANALOG RIGHT"
+msgstr "오른쪽 아날로그 우"
+
+msgctxt "button"
+msgid "HOTKEY ENABLE"
+msgstr "핫키"
+
+msgid "CONFIGURING"
+msgstr "설정중"
+
+msgid "KEYBOARD"
+msgstr "키보드"
+
+msgid "CEC"
+msgstr "CEC"
+
+msgid "GAMEPAD {1}"
+msgstr "게임패드 {1}"
+
+msgid "HOLD ANY BUTTON TO SKIP"
+msgstr "건너뛰려면 버튼을 길게 누르세요"
+
+msgid "-NOT DEFINED-"
+msgstr "-정의 안됨-"
+
+msgid ""
+"YOU DIDN'T CHOOSE A HOTKEY ENABLE BUTTON. THIS IS REQUIRED FOR EXITING GAMES "
+"WITH A CONTROLLER. DO YOU WANT TO USE THE SELECT BUTTON DEFAULT ? PLEASE "
+"ANSWER YES TO USE SELECT OR NO TO NOT SET A HOTKEY ENABLE BUTTON."
+msgstr ""
+"핫키 설정을 선택하지 않았습니다. 컨트롤러를 이용해 게임 종료를 하려면 반드시 필요한 설정입니다. "
+"셀렉트 버튼을 기본 핫키로 사용하시겠습니까?"
+"예를 선택하면 셀렉트 버튼으로 설정되고 아니오를 선택하면 핫키를 설정하지 않습니다."
+
+msgid "HOLD FOR {1}S TO SKIP"
+msgid_plural "HOLD FOR {1}S TO SKIP"
+msgstr[0] "건너 뛰려면 {1} 초 동안 누르세요"
+msgstr[1] "건너 뛰려면 {1} 초 동안 누르세요"
+
+msgid "PRESS ANYTHING"
+msgstr "아무 버튼이나 누르세요"
+
+msgid "ALREADY TAKEN"
+msgstr "이미 사용중입니다"
