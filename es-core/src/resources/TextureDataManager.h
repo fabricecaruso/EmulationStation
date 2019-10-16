@@ -9,9 +9,7 @@
 #include <mutex>
 #include <vector>
 #include <thread>
-#if _RPI_ || _ODROID_
 #include <algorithm>
-#endif
 
 class TextureData;
 class TextureResource;
