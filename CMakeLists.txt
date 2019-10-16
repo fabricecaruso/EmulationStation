@@ -39,8 +39,7 @@ elseif(EXISTS "${CMAKE_FIND_ROOT_PATH}/usr/lib/libMali.so" OR
     EXISTS "${CMAKE_FIND_ROOT_PATH}/usr/lib/aarch64-linux-gnu/libMali.so" OR
     EXISTS "${CMAKE_FIND_ROOT_PATH}/usr/lib/arm-linux-gnueabihf/mali-egl/libmali.so" OR
     EXISTS "${CMAKE_FIND_ROOT_PATH}/usr/lib/arm-linux-gnueabihf/libmali.so")
-    MESSAGE("libMali.so found")
-    set(ODROID found)
+    MESSAGE("libMali.so found")   
     set(GLSystem "Embedded OpenGL" CACHE STRING "The OpenGL system to be used")
 else()
     set(GLSystem "Desktop OpenGL" CACHE STRING "The OpenGL system to be used")
@@ -80,10 +79,6 @@ endif()
 
 #-------------------------------------------------------------------------------
 #set up compiler flags and excutable names
-if(DEFINED ODROID)
-    add_definitions(-D_ODROID_)
-endif()
-
 if(DEFINED BCMHOST OR RPI)
     add_definitions(-D_RPI_)
 endif()
