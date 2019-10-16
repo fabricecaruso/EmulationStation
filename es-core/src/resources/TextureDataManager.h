@@ -9,7 +9,7 @@
 #include <mutex>
 #include <vector>
 #include <thread>
-#ifdef _RPI_
+#if _RPI_ || _ODROID_
 #include <algorithm>
 #endif
 
