@@ -2,29 +2,47 @@
 
 #include "utils/FileSystemUtil.h"
 #include <fstream>
-#include <vector>
+
+auto array_deleter = [](unsigned char* p) { delete[] p; };
+auto nop_deleter = [](unsigned char* /*p*/) { };
+
+std::shared_ptr<ResourceManager> ResourceManager::sInstance = nullptr;
+
+ResourceManager::ResourceManager()
+{
+}
 
 std::shared_ptr<ResourceManager>& ResourceManager::getInstance()
 {
-	static std::shared_ptr<ResourceManager> sInstance(new ResourceManager());
+	if(!sInstance)
+		sInstance = std::shared_ptr<ResourceManager>(new ResourceManager());
+
 	return sInstance;
 }
 
 std::string ResourceManager::getResourcePath(const std::string& path) const
 {
 	// check if this is a resource file
-	if(path.compare(0, 2, ":/") == 0) {
-		std::vector<std::string> test_paths = {
-			Utils::FileSystem::getHomePath() + "/.emulationstation/resources/" + &path[2],
-			Utils::FileSystem::getExePath() + "/resources/" + &path[2],
-			Utils::FileSystem::getCWDPath() + "/resources/" + &path[2]
-		};
-		for (auto&& test : test_paths) {
-			if (Utils::FileSystem::exists(test)) {
-				return test;
-			}
-		}
+	if((path[0] == ':') && (path[1] == '/'))
+	{
+		std::string test;
+
+		// check in homepath
+		test = Utils::FileSystem::getHomePath() + "/.emulationstation/resources/" + &path[2];
+		if(Utils::FileSystem::exists(test))
+			return test;
+
+		// check in exepath
+		test = Utils::FileSystem::getExePath() + "/resources/" + &path[2];
+		if(Utils::FileSystem::exists(test))
+			return test;
+
+		// check in cwd
+		test = Utils::FileSystem::getCWDPath() + "/resources/" + &path[2];
+		if(Utils::FileSystem::exists(test))
+			return test;
 	}
+
 	// not a resource, return unmodified path
 	return path;
 }
@@ -58,7 +76,6 @@ ResourceData ResourceManager::loadFile(const std::string& path, size_t size) con
 	}
 
 	//supply custom deleter to properly free array
-	auto array_deleter = [](unsigned char* p) { delete[] p; };
 	std::shared_ptr<unsigned char> data(new unsigned char[size], array_deleter);
 	stream.read((char*)data.get(), size);
 	stream.close();
