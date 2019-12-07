@@ -40,9 +40,7 @@ public:
 	bool fileExists(const std::string& path) const;
 
 private:
-	ResourceManager();
-
-	static std::shared_ptr<ResourceManager> sInstance;
+	ResourceManager() = default;
 
 	ResourceData loadFile(const std::string& path, size_t size) const;
 
